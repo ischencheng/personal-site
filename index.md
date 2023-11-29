@@ -18,10 +18,10 @@ My systems have [won](https://vega.github.io/vega-lite/) [awards](https://uwdata
 
 <div class="me" markdown="1">
 <picture>
-  <source srcset='/images/dominik_berlin.webp' type='image/webp' />
+  <source srcset='/images/chencheng_berkeley.webp' type='image/webp' />
   <img
-    src='/images/dominik_berlin.jpg'
-    alt='Dominik Moritz'>
+    src='/images/chencheng_berkeley.png'
+    alt='Chen Cheng'>
 </picture>
 
 {:.no-list}
@@ -31,9 +31,9 @@ My systems have [won](https://vega.github.io/vega-lite/) [awards](https://uwdata
 
 </div>
 
-During my first year at UW, I received support from the [Fulbright program](https://en.wikipedia.org/wiki/Fulbright_Program). In 2013, I received my B.S. from [Hasso Plattner Institute](https://hpi.de/). I am a scholar of the [German National Academic Foundation](http://www.studienstiftung.de/). I have worked with the [Open Knowledge Foundation](http://www.okfn.org), [Google Research](https://ai.google/research/), and [Microsoft Research](https://www.microsoft.com/en-us/research/group/vibe/). Details are in my [CV]({{ "/cv/" | relative_url }}).
+During my first year at UW, I received support from the [Fulbright program](https://en.wikipedia.org/wiki/Fulbright_Program). In 2013, I received my B.S. from [Hasso Plattner Institute](https://hpi.de/). I am a scholar of the [German National Academic Foundation](http://www.studienstiftung.de/). I have worked with the [Open Knowledge Foundation](http://www.okfn.org), [Google Research](https://ai.google/research/), and [Microsoft Research](https://www.microsoft.com/en-us/research/group/vibe/). Details are in my [CV]({{ "/cv/resume_cc-1002.pdf" | relative_url }}).
 
-## Featured <a href="{{ "/projects/" | relative_url }}">Projects</a>
+## Research <a href="{{ "/projects/" | relative_url }}">Projects</a>
 
 <div class="featured-projects">
   {% assign sorted_projects = site.data.projects | sort: 'highlight' %}
@@ -48,7 +48,7 @@ During my first year at UW, I received support from the [Fulbright program](http
   Show More Projects
 </a>
 
-## Featured <a href="{{ "/publications/" | relative_url }}">Publications</a>
+## Research <a href="{{ "/publications/" | relative_url }}">Publications</a>
 
 <div class="featured-publications">
   {% assign sorted_publications = site.publications | sort: 'year' | reverse %}
@@ -64,8 +64,8 @@ During my first year at UW, I received support from the [Fulbright program](http
   {% endfor %}
 </div>
 
-<a href="{{ "/publications/" | relative_url }}" class="button">
+<!-- <a href="{{ "/publications/" | relative_url }}" class="button">
   <i class="fas fa-chevron-circle-right"></i>
   Show All Publications
-</a>
+</a> -->
 

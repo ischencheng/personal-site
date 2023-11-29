@@ -1,44 +1,59 @@
-- title: Mosaic
-  url: https://uwdata.github.io/mosaic/
+- title: VAC-HGNN
   code: https://github.com/uwdata/mosaic
-  paper: https://www.domoritz.de/papers/2023-Mosaic-VIS.pdf
-  image: mosaic.png
-  description: "Mosaic is an extensible framework for linking databases and interactive views."
+  paper: /papers/VIS2023_Heterogenous_Network.pdf
+  image: VAC-HGNNSystem.png
+  video: https://youtu.be/QZwVIS4295s
+  description: "VAC-HGNN (Visual Analytics for Comparing HGNNs) is a visual analytics system that enables HGNN practitioners to understand and compare HGNNs at three levels: graph level, group level, and individual level."
+  highlight: 1
+
+- title: ALens
+  code: https://github.com/uwdata/mosaic
+  paper: https://arxiv.org/pdf/2308.03989.pdf
+  image: ALensPipeline.png
+  video: https://youtu.be/dArrpGsDJnY
+  description: "ALens is a domain-oriented abstract writing training system that uses rhetorical structure parsing to identify main ideas, evaluates abstracts from different linguistic features and uses visualization to analyze the writing patterns of reference abstracts."
   highlight: 2
 
-- title: Swift Charts
-  url: https://developer.apple.com/documentation/Charts
-  video: https://developer.apple.com/wwdc22/10136
-  image: swiftcharts.png
-  description: "Swift Charts is a framework for informative, delightful, and accessible charts on Apple's platforms."
-  highlight: 4
 
-- title: Audio Graphs
-  code: https://developer.apple.com/documentation/accessibility/audio_graphs
-  video: https://developer.apple.com/videos/play/wwdc2021/10122/
-  image: audiographs.png
-  description: "Define an accessible representation of your chart for VoiceOver to generate an audio graph."
+- title: FMLens
+  code: https://github.com/uwdata/mosaic
+  paper: /papers/TVCG2023_FMLens.pdf
+  image: FMLensOverview.png
+  video: https://youtu.be/Ak1aPXN2k2k
+  description: "FMLens is an interactive visual analytics system that scaffolds the fund manager selection process to support investors in efficiently evaluating candidate fund managers and unfolding the changes in their investment styles."
+  highlight: 3
 
-- title: Apache Arrow
-  code: https://github.com/apache/arrow/tree/master/js
-  image: arrow.png
-  description: "Apache Arrow is a multi-language toolbox for accelerated data interchange and in-memory processing. I am a committer to the project."
+- title: Black Asset Network Visual Analytic System
+  code: https://github.com/uwdata/mosaic
+  video: https://youtu.be/UdkFp5OwFVE
+  image: BlackAssestOverview.png
+  article: /images/projects/chinavis2022poster.png
+  description: "The system employs visual analysis solutions to investigate the network assets and correlations of black and gray industry gangs, such as domain names and IP addresses, to identify suspicious activities, understand their operational mechanisms, and develop strategies to combat their detrimental impact on network ecology and social security."
 
-- title: DuckDB WASM
-  url: https://duckdb.org/2021/10/29/duckdb-wasm.html
-  code: https://github.com/duckdb/duckdb-wasm
-  demo: https://shell.duckdb.org
-  paper: https://www.vldb.org/pvldb/vol15/p3574-kohn.pdf
-  image: duckdb.png
-  description: "DuckDB-Wasm: Efficient Analytical SQL in the Browser."
 
-- title: Falcon
-  url: https://github.com/uwdata/falcon
+- title: Chrome Dinosaur Game in RISC-V
+  video: https://youtu.be/IHl22xEYWEg
+  image: trex-chrome-game.png
+  description: "Use RISC-V to implement the Chrome Dinosaur Game on Sipeed Longan Nano development board."
+
+- title: Meta-Path Discovery Based on Temporal Equivariant Graph
+  code: https://github.com/uwdata/mosaic
+  paper: /papers/CS181Project.pdf
+  image: CS181ProjectOverview.png
+  description: "Added temporal information to static graph representation by GRU and used DQN to discover meta-paths."
+
+- title: Hand Gesture Recognition using DD-Net & Knowledge Distillation
+  code: https://github.com/Captain-Noble/CS172-PROJ
+  paper: /papers/CS172Project.pdf
+  image: CS172DataAug.png
+  description: "Collected a hand gesture recognition dataset, built DD-Net from research and compress the model with knowledge distillation."
+
+- title: Linking Tweets with NYT Articles using ChatGPT & BERT
   code: https://github.com/uwdata/falcon
-  demo: https://vega.github.io/falcon/flights
-  paper: /papers/2019-Falcon-CHI.pdf
-  image: falcon.jpg
-  description: "Falcon is an interactive system for real-time brushing and linking interactions among multiple visualizations of billion-record datasets."
+  paper: /papers/CS173Project.pdf
+  image: CS173DataAug.png
+  description: "Mitigated data imbalance in tweet-news linkage by utilizing ChatGPT for text augmentation and use
+Sentence-BERT-based model to link tweet and news."
 
 - title: Dense Lines
   image: dense.jpg
@@ -70,7 +85,7 @@
   recording: https://vimeo.com/308980888
   image: draco.jpg
   description: "I created Draco, a formal model of visualization design with shareable design guidelines, formal reasoning over the design space, and visualization recommendation."
-  highlight: 1
+
 
 - title: Vega-Lite
   url: https://vega.github.io/vega-lite
@@ -80,7 +95,7 @@
   recording: https://www.youtube.com/watch?v=9uaHRWj04D4
   image: vl.jpg
   description: "I am the co-author of Vega-Lite, a high-level visualization grammar for rapid specification of interactive, multi-view graphics."
-  highlight: 3
+
 
 - title: Vega
   url: https://vega.github.io/vega
