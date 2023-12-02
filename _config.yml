@@ -1,6 +1,6 @@
 # Site settings
 title: Chen Cheng
-email: ischen.cheng@gmail.edu
+email: ischen.cheng@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
    Faculty at Carnegie Mellon University and Research Scientist at Apple. I create interactive data visualization and analysis tools. PhD from University of Washington.
 baseurl: "" # the subpath of your site, e.g. /blog

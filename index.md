@@ -4,16 +4,17 @@ title: "Home"
 class: home
 ---
 
-# Hi, I'm Dominik Moritz
+# Hi, I'm Chen Cheng
 
 <div class="columns" markdown="1">
 
 <div class="intro" markdown="1">
-I'm faculty at the [Human-Computer Interaction Institute](https://hcii.cmu.edu/) at [Carnegie Mellon University](https://www.cmu.edu/) and an ML researcher at [Apple](https://www.apple.com/) <i class="fab fa-apple"></i>. I design and build interactive systems for visualization and analysis. At CMU, I co-lead the [Data Interaction Group](https://dig.cmu.edu/).
+I'm a senior undergraduate at the [School of Information Science and Technology](https://sist.shanghaitech.edu.cn/) at [ShanghaiTech University](https://www.shanghaitech.edu.cn/) focusing on Human-AI Interaction (HAI). Previously, I designed and built interactive systems for visualization and analysis advised by [Quan Li](https://faculty.sist.shanghaitech.edu.cn/liquan/), aiming to facilitate the perception and decision-making process involving a large amount of data. Currently, I am working on building Programming Support Tools for code comprehension, as advised by [Tianyi Zhang](https://tianyi-zhang.github.io/).
 
-I received my PhD from the [Paul G. Allen School](https://www.cs.washington.edu/) at the [University of Washington](https://www.washington.edu/), where I worked with [Jeff Heer](https://homes.cs.washington.edu/~jheer/) and [Bill Howe](https://homes.cs.washington.edu/~billhowe/) in the [Interactive Data Lab](http://idl.cs.washington.edu/) and the [Database Group](https://db.cs.washington.edu/).
+Overall, my passion lies in the transformation of information among different counterparts, particularly in developing tools and systems that enhance communication both between AI agents and between human and AI agents.
 
-My systems have [won](https://vega.github.io/vega-lite/) [awards](https://uwdata.github.io/draco/) at premier academic venues and are used by the [Python](https://altair-viz.github.io) and [JavaScript](https://vega.github.io/vega-lite/) data science communities.
+
+
 </div>
 
 <div class="me" markdown="1">
@@ -26,12 +27,13 @@ My systems have [won](https://vega.github.io/vega-lite/) [awards](https://uwdata
 
 {:.no-list}
 * <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-* NSH 2504B
 </div>
 
 </div>
 
-During my first year at UW, I received support from the [Fulbright program](https://en.wikipedia.org/wiki/Fulbright_Program). In 2013, I received my B.S. from [Hasso Plattner Institute](https://hpi.de/). I am a scholar of the [German National Academic Foundation](http://www.studienstiftung.de/). I have worked with the [Open Knowledge Foundation](http://www.okfn.org), [Google Research](https://ai.google/research/), and [Microsoft Research](https://www.microsoft.com/en-us/research/group/vibe/). Details are in my [CV]({{ "/cv/resume_cc-1002.pdf" | relative_url }}).
+<div style="background-color: #f0f0ed; padding: 10px; border-radius: 10px;">
+  I am seeking a Ph.D. position in HAI, starting from Fall 2024. Download my <a href="{{ "/assets/resume_cc-1002.pdf" | relative_url }}">[CV]</a> here.
+</div>
 
 ## Research <a href="{{ "/projects/" | relative_url }}">Projects</a>
 

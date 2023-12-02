@@ -1,0 +1,42 @@
+- title: Black Asset Network Visual Analytic System
+  course: "Data Visualization"
+  code: https://chencheng.me/
+  video: https://youtu.be/UdkFp5OwFVE
+  image: BlackAssestOverview.png
+  article: /images/projects/chinavis2022poster.png
+  description: "The system employs visual analysis solutions to investigate the network assets and correlations of black and gray industry gangs, such as domain names and IP addresses, to identify suspicious activities, understand their operational mechanisms, and develop strategies to combat their detrimental impact on network ecology and social security."
+
+- title: "Linear Programming Solver"
+  course: "Numerical Optimization"
+  description:
+    - "Implemented a linear programming solver using Python."
+    - "Employed a two-phase approach to simplex algorithms."
+
+
+- title: Chrome Dinosaur Game in RISC-V
+  course: "Computer Architecture I"
+  video: https://youtu.be/IHl22xEYWEg
+  image: trex-chrome-game.png
+  description: "Use RISC-V to implement the Chrome Dinosaur Game on Sipeed Longan Nano development board."
+
+- title: Meta-Path Discovery Based on Temporal Equivariant Graph
+  course: "Artificial Intelligence"
+  code: https://chencheng.me/
+  paper: /papers/CS181Project.pdf
+  image: CS181ProjectOverview.png
+  description: "Added temporal information to static graph representation by GRU and used DQN to discover meta-paths."
+
+- title: Hand Gesture Recognition using DD-Net & Knowledge Distillation
+  course: "Computer Vision"
+  code: https://github.com/Captain-Noble/CS172-PROJ
+  paper: /papers/CS172Project.pdf
+  image: CS172DataAug.png
+  description: "Collected a hand gesture recognition dataset, built DD-Net from research and compress the model with knowledge distillation."
+
+- title: Linking Tweets with NYT Articles using ChatGPT & BERT
+  course: "Data Mining"
+  code: https://github.com/uwdata/falcon
+  paper: /papers/CS173Project.pdf
+  image: CS173DataAug.png
+  description: "Mitigated data imbalance in tweet-news linkage by utilizing ChatGPT for text augmentation and use
+Sentence-BERT-based model to link tweet and news."

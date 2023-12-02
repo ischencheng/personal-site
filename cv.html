@@ -6,63 +6,34 @@ title: CV
 
 <section class="container">
 
-<h1><a href="{{ absolute_url }}/">Dominik Moritz</a></h1>
+<h1><a href="{{ absolute_url }}/">Chen Cheng</a></h1>
 
-<small class="live-link">Last updated in <time datetime="{{ site.time }}">{{ site.time | date: '%B %Y'}}</time>. Get the latest version at <a href="{{ '/cv' | absolute_url }}">www.domoritz.de/cv</a>.</small>
+<small class="live-link">Last updated in <time datetime="{{ site.time }}">{{ site.time | date: '%B %Y'}}</time>. Get the latest version at <a href="{{ '/cv' | absolute_url }}">www.chencheng.me/cv/</a>.</small>
 
 <div class="header-columns">
   <div>
     <p>
-      Faculty at CMU HCII and Research Scientist at Apple<br/>
+      I am seeking a Ph.D. position in HAI<br/>
     </p>
   </div>
   <div>
     <p class="right-align">
-      <a href="{{ absolute_url }}/">https://www.domoritz.de</a><br/>
-      <a href="mailto:domoritz@cmu.edu">domoritz@cmu.edu</a><br/>
-      <a href="https://twitter.com/domoritz">@domoritz</a><br/>
-      <a href="https://vis.social/@dom">@dom@vis.social</a>
+      <a href="{{ absolute_url }}/">https://www.chencheng.me</a><br/>
+      <a href="mailto:ischen.cheng@gmail.com">ischen.cheng@gmail.com</a><br/>
+      <a href="https://twitter.com/IsChenCheng">@chencheng</a><br/>
     </p>
   </div>
 </div>
 
 
-<h2>Research Area</h2>
+<h2>Research Interest</h2>
 
 <p>
-To enhance people's ability to understand and communicate large and complex data, I develop methods that richly integrate the capabilities of both people and machines. I combine methods from <strong>visualization</strong>, <strong>data management</strong>, <strong>programming languages</strong>, and <strong>human-computer interaction</strong> to enable effective methods for data analysis and communication. My systems have won awards at premier academic venues, and are used by journalists, data enthusiasts, developers, educators, and the data science community.
+  To facilitate a deeper understanding and more efficient communication of information across various interfaces, my research focuses on the synergy between different information modules, particularly in the realms of AI and human-AI interactions. I am dedicated to exploring the transformation and exchange of information, aiming to align these elements to enhance mutual understanding between diverse modules. My approach integrates techniques from <strong>human-computer interaction</strong>,  <strong>visualization</strong>, and <strong>artificial intelligence</strong> to develop tools and systems that not only improve communication between AI agents but also between humans and AI agents. This work, at the intersection of different disciplines, aims to advance our capacity to interpret, manage, and utilize complex data streams in a variety of contexts, from everyday interactions to sophisticated data analysis.
 </p>
 
 
-<h2>Positions</h2>
-
-{% assign filtered_positions = site.data.positions | where_exp:'item','item.hidden == null' %}
-{% for pos in filtered_positions %}
-<article>
-  <div class="date-container">
-    <span class="date">{{ pos.years | replace: "-", "–" }}</span>
-    <strong class="fill">{{pos.company}}</strong>
-    <span class="right">{{ pos.location }}</span>
-  </div>
-  <span>
-    {{pos.title}}{% if pos.short_desc %}, {{ pos.short_desc | markdownify | remove: '<p>' | remove: '</p>' }}{% endif %}
-  </span>
-  <!-- <p>
-    {% if pos.mentors %}
-      Mentor{% if pos.mentors.size > 1 %}s{% endif %}: {% for mentor in pos.mentors %}
-        {% include person person=mentor %}{% unless forloop.last %}, {% endunless %}
-      {% endfor %}<br/>
-    {% endif %}
-    {{ pos.description | markdownify | remove: '<p>' | remove: '</p>' }}
-    {% if pos.skills %}
-    <small class="muted">[{% for skill in pos.skills %}{{ skill }}{% unless forloop.last %}, {% endunless %}{% endfor %}]</small>
-    {% endif %}
-  </p> -->
-</article>
-{% endfor %}
-
-
-<h2>Education</h2>
+<h2>Educational Background</h2>
 
 {% for ed in site.data.education %}
 <article>
@@ -79,28 +50,33 @@ To enhance people's ability to understand and communicate large and complex data
 </article>
 {% endfor %}
 
+<h2>Research Experience</h2>
 
-<h2>Notable Awards</h2>
-
-{% for award in site.data.awards %}
+{% for research in site.data.researches %}
 <article>
   <div class="date-container">
-    <span class="date">{{ award.years | replace: "-", "–" }}</span>
-    <strong class="fill">{{ award.name }}</strong>
-    <span class="right">{{ award.sponsor }}</span>
+    <span class="date">{{ research.timeframe | replace: "-", "–" }}</span>
+    <strong class="fill">{{ research.name }}</strong>
+    <span class="right">{{ research.location }}</span>
   </div>
-  <p class="muted">
-    {{ award.description }}
-  </p>
+  <p> {{ research.lab }} &nbsp;|&nbsp; {{ research.advisor }} &nbsp;|&nbsp; {{ research.university }}</p>
+  <ul style="list-style-type: disc;">
+    {% for des in research.description %}
+      <li>{{ des | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+    {% endfor %}
+  </ul>
 </article>
 {% endfor %}
+
+
+
 
 
 <h2>Publications <a href="{{ '/publications/' | absolute_url }}">[Interactive Version]</a></h2>
 
 {% assign sorted_pubs = site.publications | reverse %}
 
-{% assign types = "Conference|Journal|Book Chapter|Demo|Workshop|Thesis" | split: "|" %}
+{% assign types = "Conference|Journal" | split: "|" %}
 {% for type in types %}
   {% assign counter = 1 %}
   {% for pub in sorted_pubs %}
@@ -164,155 +140,83 @@ To enhance people's ability to understand and communicate large and complex data
   {% endfor %}
 {% endfor %}
 
+<h2>Honors & Awards</h2>
 
-<h2>Patents</h2>
-
-{% for patent in site.data.patents %}
-  <div class="date-container">
-    <span class="date">{{ patent.date | date: "%b %Y" }}</span>
-    <h3><a href="{{ patent.url }}">{{ patent.title }}</a></h3>
-  </div>
-  <div class="patent">
-    <p>
-      {% for author in patent.authors %}
-        {% include person person=author %}{% unless forloop.last %}, {% endunless %}
-      {% endfor %}
-    </p>
-  </div>
-{% endfor %}
-
-
-<h2>Student Mentoring</h2>
-
-{% assign filtered_mentoring = site.data.mentoring | where_exp:'item','item.hidden == null' %}
-{% for mentor in filtered_mentoring %}
-  <div class="date-container">
-    <span class="date">{{ mentor.year | replace: "-", "–" }}</span>
-    <h3>{{ mentor.title }}</h3>
-    <span class="right">{{ mentor.location }}</span>
-  </div>
-  <p>
-    <span class="muted">
-      {{ mentor.description }}
-    </span>
-    {% if mentor.who %}
-      <h4>Mentored:</h4>
-      <ul>
-      {% for person in mentor.who %}
-        <li class="muted">{% include person person=person %}</li>
-      {% endfor %}
-      </ul>
-    {% endif %}
-  </p>
-{% endfor %}
-
-
-<h2>Talks  <a href="{{ '/talks/' | absolute_url }}">[Interactive Version]</a></h2>
-
-{% assign talktitles = site.data.talks | group_by:"title" %}
-{% for title in talktitles %}
+{% for award in site.data.awards %}
 <article>
-  <h3 class="cv-talk-title">{{ title.name }}</h3>
-  {% assign sorted_talks = title.items | sort: 'date' | reverse %}
-  {% for talk in sorted_talks %}
-    <div class="date-container">
-      <time datetime="{{ talk.date }}">{{ talk.date | date: "%b %Y" }}</time>
-      <span class="fill">{{ talk.location }}{% if talk.city %}, <small class="muted">{{ talk.city }}</small>{% endif %}</span>
+  <div class="date-container">
+    <span class="date">{{ award.years | replace: "-", "–" }}</span>
+    <strong class="fill">{{ award.name }}</strong>
+    <span class="right">{{ award.location }}</span>
+  </div>
+  {% if award.description %}
+  <p class="muted">
+    {{ award.description }}
+  </p>
+  {% endif %}
+</article>
+{% endfor %}
 
+<h2>Coursework</h2>
+
+{% for coursework in site.data.courseworks %}
+<article class="pub">
+  <div><strong>{{ coursework.title }}</strong>&nbsp; |&nbsp; {{ coursework.course }}</div>
+  <div>{{ coursework.description }}
+    <div class="extra-links">
+      {% if coursework.code %}
+        <a href="{{ coursework.code }}"><i class="fas fa-code" aria-hidden="true"></i> Code</a>
+      {% endif %}
+
+      {% if coursework.video %}
+        <a href="{{ coursework.video }}"><i class="fas fa-film" aria-hidden="true"></i> Video</a>
+      {% endif %}
+
+      {% if project.article %}
+        <a href="{{ project.article }}"><i class="fas fa-newspaper" aria-hidden="true"></i>Poster</a>
+      {% endif %}
+
+      {% if coursework.paper %}
+        <a href="{{ coursework.paper }}"><i class="far fa-file-pdf" aria-hidden="true"></i> PDF</a>
+      {% endif %}
     </div>
-  {% endfor %}
-</article>
-{% endfor %}
-
-
-<h2>Teaching</h2>
-
-{% for teach in site.data.teaching %}
-<article>
-  <div class="date-container">
-    <span class="date">{{ teach.year }}</span>
-    <strong class="fill">{{ teach.title }}</strong>
-    <span class="right">{{ teach.location }}</span>
   </div>
-  <p>
-    {% if teach.students %}
-      {% if teach.role %}{{ teach.role }}{% endif %}{% if teach.professor %} for {% include person person=teach.professor %}{% endif %},
-      {{ teach.students }}
-      <br/>
-    {% endif %}
-    <span class="muted">
-      {{ teach.description | markdownify | remove: '<p>' | remove: '</p>' }}
-    </span>
-  </p>
 </article>
 {% endfor %}
+
+
+
 
 
 <h2>Service</h2>
+<ul>
+  <li><strong>Peer Reviewing</strong>
+      <sapn>ACM CHI 2023, ACM CSCW 2023</sapn>
 
-<p>
-  Reviewer for ACM CHI, IEEE VIS, TVCG, EuroVis, PacificVis, Computers & Graphics, HILDA, and DSIA.
-  Program committee for <a href="http://hilda.io/2018/">HILDA 2018</a>, <a href="http://hilda.io/2019/">HILDA 2019</a>, and <a href="http://hilda.io/2020/">HILDA 2020</a>, and program chair for <a href="https://hilda.io/2022/">HILDA 2022</a> and <a href="https://hilda.io/2023/">HILDA 2023</a> at SIGMOD.
-  Organizer of <a href="https://www.interactive-analysis.org/year/2018/">DSIA 2018</a> and <a href="https://www.interactive-analysis.org/">DSIA 2019</a> at VIS.
-  Session chair at CHI 2019, VIS 2019, VIS 2020, VIS 2021, VIS 2023. Program committee at VIS 2020 and 2021. Organizing committee for VIS 2022, VIS 2023, VIS 2024.
-  Maintainer of many open source projects. <a href="https://arrow.apache.org/committers/">Apache Arrow committer</a>.
-  <!-- <br/>
-  Member of the <a href="https://frictionlessdata.io/">Frictionless Data</a> working group that aims to submit a specification to the <a href="https://www.ietf.org/">IETF</a>. -->
-</p>
+  </li>
+  <li><strong>Organizing</strong>
+      <span>100 Enterprises on Campus</span>
+  </li>
+</ul>
 
-
-<!-- <h2>Relevant Coursework</h2>
-
-{% for institution in site.data.courses %}
-<article>
-  <h3>{{ institution.title }}</h3>
-  <div>
-    <ul>
-      {% for course in institution.courses %}<li>{{ course.title }}{% if course.with %}<span class="muted"> ({% include person person=course.with %})</span>{% endif %}</li>{% endfor %}
-    </ul>
-  </div>
-</article>
-{% endfor %} -->
 
 
 <h2>References</h2>
 
 <div class="refs">
   <p>
-    <strong>Jeffrey Heer</strong><br/>
-    Professor of Computer Science & Engineering<br/>
-    <i>University of Washington</i><br/>
-    <a href="https://homes.cs.washington.edu/~jheer/">homes.cs.washington.edu/~jheer/</a>
+    <strong>Quan Li</strong><br/>
+    assistant professor at School of Information Science and Technology<br/>
+    <i>ShanghaiTech University</i><br/>
+    <a href="https://faculty.sist.shanghaitech.edu.cn/liquan/">faculty.sist.shanghaitech.edu.cn/liquan/</a>
   </p>
 
   <p>
-    <strong>Bill Howe</strong><br/>
-    Professor at the Information School<br/>
-    <i>University of Washington</i><br/>
-    <a href="https://faculty.washington.edu/billhowe/">faculty.washington.edu/billhowe/</a>
+    <strong>Tianyi Zhang</strong><br/>
+    Assistant Professor in Computer Science<br/>
+    <i>Purdue University</i><br/>
+    <a href="https://www.cs.purdue.edu/people/faculty/tianyi.html">www.cs.purdue.edu/people/faculty/tianyi.html</a>
   </p>
 
-  <p>
-    <strong>Danyel Fisher</strong><br/>
-    Principal Design Researcher<br/>
-    <i>Honeycomb</i><br/>
-    Former Senior Researcher at Microsoft Research<br/>
-    <a href="https://danyelfisher.info/">danyelfisher.info/</a>
-  </p>
-
-  <p>
-    <strong>Tim Kraska</strong><br/>
-    Professor of Electrical Engineering & Computer Science<br/>
-    <i>Massachusetts Institute of Technology</i><br/>
-    <a href="https://people.csail.mit.edu/kraska/">people.csail.mit.edu/kraska/</a>
-  </p>
-
-  <p>
-    <strong>Steven Franconeri</strong><br/>
-    Professor of Psychology<br/>
-    <i>Northwestern University</i><br/>
-    <a href="https://psychology.northwestern.edu/people/faculty/core/profiles/steven-franconeri.html">psychology.northwestern.edu/people/faculty/core/profiles/steven-franconeri.html</a>
-  </p>
-</div>
 
 </section>
