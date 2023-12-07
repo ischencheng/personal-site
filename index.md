@@ -9,7 +9,7 @@ class: home
 <div class="columns" markdown="1">
 
 <div class="intro" markdown="1">
-I'm a senior undergraduate at the [School of Information Science and Technology](https://sist.shanghaitech.edu.cn/) at [ShanghaiTech University](https://www.shanghaitech.edu.cn/) focusing on Human-AI Interaction (HAI). Previously, I designed and built interactive systems for visualization and analysis advised by [Quan Li](https://faculty.sist.shanghaitech.edu.cn/liquan/), aiming to facilitate the perception and decision-making process involving a large amount of data. Currently, I am working on building Programming Support Tools for code comprehension, as advised by [Tianyi Zhang](https://tianyi-zhang.github.io/).
+I'm a senior undergraduate at the [School of Information Science and Technology](https://sist.shanghaitech.edu.cn/) at [ShanghaiTech University](https://www.shanghaitech.edu.cn/) focusing on Human-AI Interaction (HAI). Previously, I designed and built interactive systems for visualization and analysis advised by [Quan Li](https://faculty.sist.shanghaitech.edu.cn/liquan/), aiming to facilitate the perception and decision-making process involving a large amount of data. Currently, I am working on building a programming support tool for code comprehension, as advised by [Tianyi Zhang](https://tianyi-zhang.github.io/).
 
 Overall, my passion lies in the transformation of information among different counterparts, particularly in developing tools and systems that enhance communication both between AI agents and between human and AI agents.
 
