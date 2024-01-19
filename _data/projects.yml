@@ -49,9 +49,15 @@
   description: "Collected a hand gesture recognition dataset, built DD-Net from research and compress the model with knowledge distillation."
 
 - title: Linking Tweets with NYT Articles using ChatGPT & BERT
-  code: https://github.com/uwdata/falcon
+  code: https://chencheng.me/
   paper: /papers/CS173Project.pdf
   image: CS173DataAug.png
   description: "Mitigated data imbalance in tweet-news linkage by utilizing ChatGPT for text augmentation and use
 Sentence-BERT-based model to link tweet and news."
 
+- title: Robustness of In-Context Learning with Noisy Labels
+  code: https://github.com/InezYu0928/in-context-learning-CS182
+  paper: /papers/CS182Project.pdf
+  image: CS182Outliers.png
+  description: "Explored the resilience of Transformers in In-Context Learning (ICL) against noisy labels in training
+corpora and prompt demonstrations."

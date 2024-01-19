@@ -9,7 +9,7 @@ class: home
 <div class="columns" markdown="1">
 
 <div class="intro" markdown="1">
-I'm a senior undergraduate at the [School of Information Science and Technology](https://sist.shanghaitech.edu.cn/) at [ShanghaiTech University](https://www.shanghaitech.edu.cn/) focusing on Human-AI Interaction (HAI). Previously, I designed and built interactive systems for visualization and analysis advised by [Quan Li](https://faculty.sist.shanghaitech.edu.cn/liquan/), aiming to facilitate the perception and decision-making process involving a large amount of data. Currently, I am working on building a programming support tool for code comprehension, as advised by [Tianyi Zhang](https://tianyi-zhang.github.io/).
+I'm a senior undergraduate at the [School of Information Science and Technology](https://sist.shanghaitech.edu.cn/) at [ShanghaiTech University](https://www.shanghaitech.edu.cn/) focusing on Human-AI Interaction (HAI). In Fall 2023, I was an exchange student at University of California, Berkeley. Previously, I designed and built interactive systems for visualization and analysis advised by [Quan Li] (https://faculty.sist.shanghaitech.edu.cn/liquan/) at ShanghaiTech University, aiming to facilitate the perception and decision-making process involving a large amount of data. Currently, I am working on building a programming support tool for code comprehension, as advised by [Tianyi Zhang](https://tianyi-zhang.github.io/) at Purdue University.
 
 Overall, my passion lies in the transformation of information among different counterparts, particularly in developing tools and systems that enhance communication both between AI agents and between human and AI agents.
 
@@ -32,7 +32,7 @@ Overall, my passion lies in the transformation of information among different co
 </div>
 
 <div style="background-color: #f0f0ed; padding: 10px; border-radius: 10px;">
-  I am seeking a Ph.D. position in HAI, starting from Fall 2024. Download my <a href="{{ "/assets/resume_cc-1002.pdf" | relative_url }}">[CV]</a> here.
+  I am seeking a Ph.D. position in HAI, starting from Fall 2024. Download my <a href="{{ "/assets/resume_cc-0115.pdf" | relative_url }}">[CV]</a> here.
 </div>
 
 ## Research <a href="{{ "/projects/" | relative_url }}">Projects</a>
