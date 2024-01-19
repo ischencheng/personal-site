@@ -28,10 +28,10 @@ Previously, I designed and built interactive systems for visualization and analy
 
 </div>
 
-Overall, my passion lies in the transformation of information among different counterparts, particularly in developing tools and systems that enhance communication both between AI agents and between human and AI agents.
-<div style="background-color: #f0f0ed; padding: 10px; border-radius: 10px;">
+Overall, my passion lies in the transformation of information among different counterparts, particularly in developing tools and systems that enhance communication both between AI agents and between human and AI agents. Details are in my [CV]({{ "/cv/" | relative_url }}).
+<!-- <span style="background-color: #f0f0ed; padding: 10px; border-radius: 10px;">
   I am seeking a Ph.D. position in HAI, starting from Fall 2024. Download my <a href="{{ "/assets/resume_cc-0115.pdf" | relative_url }}">[CV]</a> here.
-</div>
+</span> -->
 
 ## Research <a href="{{ "/projects/" | relative_url }}">Projects</a>
 
