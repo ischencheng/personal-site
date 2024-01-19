@@ -23,24 +23,25 @@
   description: "FMLens is an interactive visual analytics system that scaffolds the fund manager selection process to support investors in efficiently evaluating candidate fund managers and unfolding the changes in their investment styles."
   highlight: 3
 
+- title: Robustness of In-Context Learning with Noisy Labels
+  code: https://github.com/InezYu0928/in-context-learning-CS182
+  paper: /papers/CS182Project.pdf
+  image: CS182Outliers.png
+  description: "We explored the resilience of Transformers in In-Context Learning (ICL) against noisy labels in training
+corpora and prompt demonstrations."
+
+- title: Actionmap
+  url: https://fa23-56-7da1d2bdbc29.herokuapp.com/
+  code: https://github.com/cs169/fa23-chips-10.5-56
+  image: CS169Project.png
+  description: "We employed agile development to add features that allows users to learn more about their representatives, political events in their area as well as aggregate, share and view news items in their locality to Actionmap."
+
 - title: Black Asset Network Visual Analytic System
   code: https://chencheng.me/
   video: https://youtu.be/UdkFp5OwFVE
   image: BlackAssestOverview.png
   article: /images/projects/chinavis2022poster.png
   description: "The system employs visual analysis solutions to investigate the network assets and correlations of black and gray industry gangs, such as domain names and IP addresses, to identify suspicious activities, understand their operational mechanisms, and develop strategies to combat their detrimental impact on network ecology and social security."
-
-
-- title: Chrome Dinosaur Game in RISC-V
-  video: https://youtu.be/IHl22xEYWEg
-  image: trex-chrome-game.png
-  description: "Use RISC-V to implement the Chrome Dinosaur Game on Sipeed Longan Nano development board."
-
-- title: Meta-Path Discovery Based on Temporal Equivariant Graph
-  code: https://chencheng.me/
-  paper: /papers/CS181Project.pdf
-  image: CS181ProjectOverview.png
-  description: "Added temporal information to static graph representation by GRU and used DQN to discover meta-paths."
 
 - title: Hand Gesture Recognition using DD-Net & Knowledge Distillation
   code: https://github.com/Captain-Noble/CS172-PROJ
@@ -55,9 +56,16 @@
   description: "Mitigated data imbalance in tweet-news linkage by utilizing ChatGPT for text augmentation and use
 Sentence-BERT-based model to link tweet and news."
 
-- title: Robustness of In-Context Learning with Noisy Labels
-  code: https://github.com/InezYu0928/in-context-learning-CS182
-  paper: /papers/CS182Project.pdf
-  image: CS182Outliers.png
-  description: "Explored the resilience of Transformers in In-Context Learning (ICL) against noisy labels in training
-corpora and prompt demonstrations."
+
+- title: Chrome Dinosaur Game in RISC-V
+  video: https://youtu.be/IHl22xEYWEg
+  image: trex-chrome-game.png
+  description: "Use RISC-V to implement the Chrome Dinosaur Game on Sipeed Longan Nano development board."
+
+- title: Meta-Path Discovery Based on Temporal Equivariant Graph
+  code: https://chencheng.me/
+  paper: /papers/CS181Project.pdf
+  image: CS181ProjectOverview.png
+  description: "Added temporal information to static graph representation by GRU and used DQN to discover meta-paths."
+
+
