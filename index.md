@@ -11,7 +11,7 @@ class: home
 <div class="intro" markdown="1">
 I'm a senior undergraduate at the [School of Information Science and Technology](https://sist.shanghaitech.edu.cn/) at [ShanghaiTech University](https://www.shanghaitech.edu.cn/) focusing on Human-AI Interaction (HAI). In Fall 2023, I was an exchange student at [University of California, Berkeley](https://www.berkeley.edu/).
 
-Previously, I designed and built interactive systems for visualization and analysis advised by [Quan Li](https://faculty.sist.shanghaitech.edu.cn/liquan/) at ShanghaiTech University, aiming to facilitate the perception and decision-making process involving a large amount of data. Currently, I am working on building a programming support tool for code comprehension, as advised by [Tianyi Zhang](https://tianyi-zhang.github.io/) at Purdue University.
+Previously, I designed and built interactive systems for visualization and analysis advised by [Quan Li](https://faculty.sist.shanghaitech.edu.cn/liquan/) at ShanghaiTech University, aiming to facilitate the perception and decision-making process involving a large amount of data. In the summer of 2023, I worked on building a programming support tool for code comprehension, as advised by [Tianyi Zhang](https://tianyi-zhang.github.io/) at Purdue University.
 </div>
 
 <div class="me" markdown="1">

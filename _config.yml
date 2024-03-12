@@ -2,10 +2,10 @@
 title: Chen Cheng
 email: ischen.cheng@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-   Faculty at Carnegie Mellon University and Research Scientist at Apple. I create interactive data visualization and analysis tools. PhD from University of Washington.
+   I'm a senior undergraduate at the School of Information Science and Technology at ShanghaiTech University focusing on Human-AI Interaction (HAI).
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.chencheng.de" # the base hostname & protocol for your site
-production_url: "https://www.chencheng.de"
+url: "https://www.chencheng.me" # the base hostname & protocol for your site
+production_url: "https://www.chencheng.me"
 github_username:  ischencheng
 permalink: /blog/:year/:month/:title.html
 

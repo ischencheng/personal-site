@@ -1,19 +1,9 @@
-- title: VAC-HGNN
-  code: https://chencheng.me/
-  paper: /papers/VIS2023_Heterogenous_Network.pdf
-  image: VAC-HGNNSystem.png
-  video: https://youtu.be/QZwVIS4295s
-  description: "VAC-HGNN (Visual Analytics for Comparing HGNNs) is a visual analytics system that enables HGNN practitioners to understand and compare HGNNs at three levels: graph level, group level, and individual level."
+- title: The Robustness of ICL with Noisy Labels
+  code: https://github.com/InezYu0928/in-context-learning-CS182
+  paper: /papers/ICLRW_2024_Noisy_Label_ICL.pdf
+  image: CS182Outliers.png
+  description: "For the CS182 course at UC Berkeley, we explore Transformer models' In-Context Learning robustness against noisy labels and the effects of noise as data augmentation."
   highlight: 1
-
-- title: ALens
-  code: https://chencheng.me/
-  paper: https://arxiv.org/pdf/2308.03989.pdf
-  image: ALensPipeline.png
-  video: https://youtu.be/dArrpGsDJnY
-  description: "ALens is a domain-oriented abstract writing training system that uses rhetorical structure parsing to identify main ideas, evaluates abstracts from different linguistic features and uses visualization to analyze the writing patterns of reference abstracts."
-  highlight: 2
-
 
 - title: FMLens
   code: https://chencheng.me/
@@ -21,14 +11,25 @@
   image: FMLensOverview.png
   video: https://youtu.be/Ak1aPXN2k2k
   description: "FMLens is an interactive visual analytics system that scaffolds the fund manager selection process to support investors in efficiently evaluating candidate fund managers and unfolding the changes in their investment styles."
+  highlight: 2
+
+- title: VAC-HGNN
+  code: https://chencheng.me/
+  paper: /papers/VIS2023_Heterogenous_Network.pdf
+  image: VAC-HGNNSystem.png
+  video: https://youtu.be/QZwVIS4295s
+  description: "VAC-HGNN (Visual Analytics for Comparing HGNNs) is a visual analytics system that enables HGNN practitioners to understand and compare HGNNs at three levels: graph level, group level, and individual level."
   highlight: 3
 
-- title: Robustness of In-Context Learning with Noisy Labels
-  code: https://github.com/InezYu0928/in-context-learning-CS182
-  paper: /papers/CS182Project.pdf
-  image: CS182Outliers.png
-  description: "We explored the resilience of Transformers in In-Context Learning (ICL) against noisy labels in training
-corpora and prompt demonstrations."
+- title: ALens
+  code: https://chencheng.me/
+  paper: https://arxiv.org/pdf/2308.03989.pdf
+  image: ALensPipeline.png
+  video: https://youtu.be/dArrpGsDJnY
+  description: "ALens is a domain-oriented abstract writing training system that uses rhetorical structure parsing to identify main ideas, evaluates abstracts from different linguistic features and uses visualization to analyze the writing patterns of reference abstracts."
+  highlight: 4
+
+
 
 - title: Actionmap
   url: https://fa23-56-7da1d2bdbc29.herokuapp.com/
