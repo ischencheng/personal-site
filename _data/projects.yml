@@ -1,4 +1,4 @@
-- title: The Robustness of ICL with Noisy Labels
+- title: Robust ICL with Noisy Labels
   code: https://github.com/InezYu0928/in-context-learning-CS182
   paper: /papers/ICLRW_2024_Noisy_Label_ICL.pdf
   image: CS182Outliers.png
@@ -28,8 +28,6 @@
   video: https://youtu.be/dArrpGsDJnY
   description: "ALens is a domain-oriented abstract writing training system that uses rhetorical structure parsing to identify main ideas, evaluates abstracts from different linguistic features and uses visualization to analyze the writing patterns of reference abstracts."
   highlight: 4
-
-
 
 - title: Actionmap
   url: https://fa23-56-7da1d2bdbc29.herokuapp.com/
@@ -68,5 +66,9 @@ Sentence-BERT-based model to link tweet and news."
   paper: /papers/CS181Project.pdf
   image: CS181ProjectOverview.png
   description: "Added temporal information to static graph representation by GRU and used DQN to discover meta-paths."
+
+- title: CodeCognoscenti
+  description: "CodeCognoscenti is designed to offer developers efficient and non-
+intrusive ways to interact with LLM when understanding generated code."
 
 
