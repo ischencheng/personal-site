@@ -15,7 +15,7 @@
 
 - title: VAC-HGNN
   code: https://chencheng.me/
-  paper: /papers/VIS2023_Heterogenous_Network.pdf
+  paper: 
   image: VAC-HGNNSystem.png
   video: https://youtu.be/QZwVIS4295s
   description: "VAC-HGNN (Visual Analytics for Comparing HGNNs) is a visual analytics system that enables HGNN practitioners to understand and compare HGNNs at three levels: graph level, group level, and individual level."
